@@ -1,0 +1,17 @@
+.display-name-wrapper{
+    min-height: 85vh;
+    font-size: 10vh;
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.hamburgerView {
+    justify-content: start;
+}
+
+@media screen and (min-width: 992px) {
+    .hamburgerView {
+        justify-content: end;
+    }
+}
