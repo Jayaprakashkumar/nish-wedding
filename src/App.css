@@ -7,9 +7,17 @@ body {
   background-color: #aaa; /* or add it to the track */
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: 5px;
+}
+
 .navbar{
   background-color: rgb(35 35 35) !important;
   color: #fff;
+  position:fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar a.nav-link {
@@ -24,6 +32,9 @@ body {
 .navbar a.nav-link:hover{
   color: #ab7650!important;
 }
+.hamburgerView {
+  justify-content: start;
+}
 
 /* //Global color */
 
@@ -33,4 +44,7 @@ body {
 
 .primary-color{
   color: #fff !important;
+}
+.pt-3em{
+  padding-top: 3em;
 }

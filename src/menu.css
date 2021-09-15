@@ -1,0 +1,20 @@
+.menu-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 4vmin;
+}
+.menu-wrapper > div {
+    box-shadow: 1px 6px 13px -4px #ab7650;
+    max-width: 45rem;
+    padding: 2em;
+    color: #cac2c2;
+}
+
+.menu-wrapper > div p{
+    padding-bottom: 0.5rem;
+}
+
+

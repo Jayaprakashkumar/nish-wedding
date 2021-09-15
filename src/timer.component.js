@@ -64,7 +64,7 @@ const FlipUnitContainer = ({digit, shuffle, unit}) => {
       <StaticCard position={'lowerCard'} digit={previousDigit} />
       <AnimatedCard digit={digit1} animation={animation1} />
       <AnimatedCard digit={digit2} animation={animation2} />
-      <span>{_.startCase(unit)}</span>
+      <span className="units">{_.startCase(unit)}</span>
     </div>
   );
 };
@@ -95,7 +95,7 @@ class FlipClock extends React.Component {
   updateTime () {
 
     let year = new Date ().getFullYear ();
-    let difference = +new Date (`11/01/${year}`) - +new Date ();
+    let difference = +new Date (`11/14/${year}`) - +new Date ();
     let timeLeft = {};
 
     if (difference > 0) {

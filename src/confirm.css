@@ -1,0 +1,17 @@
+.confirm-wrapper {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3.5vmin;
+}
+
+.confirm-wrapper span {
+    text-decoration: line-through;
+}
+
+.confirm-wrapper img{
+    width: 70%;
+    margin-bottom: 2em;
+}

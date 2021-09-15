@@ -1,6 +1,6 @@
 .display-name-wrapper{
-    min-height: 85vh;
-    font-size: 10vh;
+    min-height: 100vh;
+    font-size: 9vmin;
     font-family: fantasy;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -8,6 +8,37 @@
 
 .hamburgerView {
     justify-content: start;
+}
+.date-font{
+    font-size: 0.5em;
+    letter-spacing: 0.5px;
+    font-family: cursive;
+}
+.live-video{
+    width: 100%;
+    border: 1px solid #6b6a6a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.live-video img{
+    width: 50%;
+}
+.live-video p{
+    font-size: 3vmin;
+}
+.arrow {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    right: 2em;
+    z-index: 99;
+    bottom: 2em;
+}
+.arrow:hover {
+    cursor: pointer;
 }
 
 @media screen and (min-width: 992px) {

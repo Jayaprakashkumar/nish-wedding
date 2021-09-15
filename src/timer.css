@@ -29,21 +29,24 @@ header h1 {
 .flipClock {
   display: flex;
   justify-content: space-between;
-  width: 500px;
-  margin-bottom: 50px;
+  min-width: 20vmin;
+  font-size: 1.5vmin;
+  margin-bottom: 6rem;
 }
 
 .flipUnitContainer {
   display: block;
   position: relative;
-  width: 140px;
-  height: 120px;
+  width: 20vmin;
+  height: 18vmin;
   perspective-origin: 50% 50%;
   perspective: 300px;
-  background-color: white;
+  background-color: rgb(57, 57, 57);
+  color: #fff;
   border-radius: 3px;
-  box-shadow: 0px 10px 10px -10px grey;
+  box-shadow: 0px 10px 10px -10px rgb(57 57 57);
   margin-left: 5px;
+  margin-right: 0.5rem;
 }
 
 .upperCard, .lowerCard {
@@ -53,18 +56,19 @@ header h1 {
   width: 100%;
   height: 50%;
   overflow: hidden;
-  border: 1px solid whitesmoke;
+  /* border: 1px solid whitesmoke; */
+  border:1px solid  rgb(57, 57, 57);
 }
 .upperCard span, .lowerCard span {
   font-size: 5em;
   font-family: "Droid Sans Mono", monospace;
   font-weight: lighter;
-  color: #333333;
+  color: #fff;
 }
 
 .upperCard {
   align-items: flex-end;
-  border-bottom: 0.5px solid whitesmoke;
+  border-bottom: 1.5px solid rgb(35 35 35);
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 }
@@ -74,7 +78,7 @@ header h1 {
 
 .lowerCard {
   align-items: flex-start;
-  border-top: 0.5px solid whitesmoke;
+  border-top: 0.5px solid  rgb(57, 57, 57);;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
 }
@@ -97,18 +101,18 @@ header h1 {
   font-family: "Droid Sans Mono", monospace;
   font-size: 5em;
   font-weight: lighter;
-  color: #333333;
+  color: #fff;
 }
 .flipCard.unfold {
   top: 50%;
   align-items: flex-start;
   transform-origin: 50% 0%;
   transform: rotateX(180deg);
-  background-color: white;
+  background-color:  rgb(57, 57, 57);;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
-  border: 0.5px solid whitesmoke;
-  border-top: 0.5px solid whitesmoke;
+  border: 0.5px solid  rgb(57, 57, 57);;
+  border-top: 0.5px solid  rgb(57, 57, 57);;
 }
 .flipCard.unfold span {
   transform: translateY(-50%);
@@ -118,14 +122,18 @@ header h1 {
   align-items: flex-end;
   transform-origin: 50% 100%;
   transform: rotateX(0deg);
-  background-color: white;
+  background-color:  rgb(57, 57, 57);;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  border: 0.5px solid whitesmoke;
-  border-bottom: 0.5px solid whitesmoke;
+  border: 0.5px solid  rgb(57, 57, 57);;
+  border-bottom: 0.5px solid  rgb(57, 57, 57);;
 }
 .flipCard.fold span {
   transform: translateY(50%);
+
+}
+.units{
+  font-size: 4vmin;
 }
 
 .fold {
