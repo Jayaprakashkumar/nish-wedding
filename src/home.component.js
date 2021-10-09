@@ -55,6 +55,16 @@ class HomeComponent extends Component {
             <p className="mt-3 date-font">14/11/2021</p>
           </div>
         </div>
+        <div className="col-12 event d-flex justify-content-center align-items-center text-center mb-5">
+          <div className="mr-5">
+            <p className="secondary-color">Reception</p>
+            <span>Nov 14th <span className="secondary-color">|</span> 6 PM</span>
+          </div>
+          <div>
+            <p className="secondary-color">Marriage</p>
+            <span>Nov 15th <span className="secondary-color">|</span> 9 AM</span>
+          </div>
+        </div>
 
         <Timer />
 
@@ -63,7 +73,7 @@ class HomeComponent extends Component {
           <div className="live-video col-sm-12 col-md-6 col-lg-6">
             <div className="text-center">
               <div className="d-flex justify-content-center align-items-center">
-              <img src="../video.png" alt="live-video icon" />
+                <img src="../video.png" alt="live-video icon" />
               </div>
               <p>Thinks are beautiful when seen in person,
                 We really love your presence,

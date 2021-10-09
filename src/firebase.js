@@ -1,6 +1,7 @@
-import { initializeApp } from "firebase/app";
-import { getDatabase } from "firebase/database";
-const config = {
+import * as firebase from "firebase";
+import "firebase/database";
+
+let config = {
   apiKey: "AIzaSyAH-Gasa5yOH7uW760AtQE8j7KDDxrN9Bg",
   authDomain: "nishweds.firebaseapp.com",
   databaseURL: "https://nishweds-default-rtdb.firebaseio.com",
@@ -11,7 +12,6 @@ const config = {
   measurementId: "G-MRF5LB15S5"
 };
 
-const app = initializeApp(config);
-const db = getDatabase(app);
+firebase.initializeApp(config);
 
-export {db};
+export default firebase.database();

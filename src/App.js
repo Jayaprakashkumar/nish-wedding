@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { Navbar, Nav} from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -29,12 +29,11 @@ function App() {
               <Nav.Link href="/home#location" >Location</Nav.Link>
               <Nav.Link as={Link} to="/menu" eventKey="/menu">Menu</Nav.Link>
               <Nav.Link as={Link} to="/ourStory" eventKey="/ourStory">Our Story</Nav.Link>
-              <Nav.Link as={Link} to="/rsvp" eventKey="/rsvp">RSVP</Nav.Link>
+              <Nav.Link as={Link} to="/rsvp" eventKey="/rsvp">Confirm your presence</Nav.Link>
 
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <br />
         <Switch>
           <Route exact path="/">
             <HomeComponent />
@@ -56,6 +55,16 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
+      <div className="footer d-flex justify-content-between">
+        <ul>
+          <li><a href="https://www.instagram.com/Jayaprakashkumar_Jp/" target="_blank"><img src="../instagram.png" /></a></li>
+          <li><a href="https://www.linkedin.com/in/jayaprakash-kumar-24b05abb" target="_blank"><img src="../linkedln.png" /></a></li>
+        </ul>
+        <a href="https://jayaprakashkumar.com/" className="pr-2" target="_blank"><img src="../developer.png" /></a>
+      </div>
+        <p className="small text-center">Copyright 2021 - designed by Jayaprakash</p>
+      
     </div>
   );
 }

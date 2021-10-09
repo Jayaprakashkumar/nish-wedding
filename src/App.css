@@ -48,3 +48,24 @@ html {
 .pt-3em{
   padding-top: 3em;
 }
+.footer{
+  border-top: 1px solid #424242;
+  margin-top: 2em;
+  padding-top: 1em;
+}
+.footer img{
+  width: 8vmin;
+}
+.footer ul{
+  list-style: none;
+  padding: 0 0 0 8px;
+
+}
+.footer ul li{
+  float: left;
+  padding-right: 0.5em;
+}
+.footer ul li img{
+  width: 5vmin;
+  height: 5vmin;
+}

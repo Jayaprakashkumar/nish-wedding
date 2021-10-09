@@ -5,6 +5,12 @@
     text-transform: uppercase;
     letter-spacing: 6px;
 }
+.event p{
+    font-family: fantasy;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 3vmin;
+}
 
 .hamburgerView {
     justify-content: start;
