@@ -1,0 +1,22 @@
+{
+  "rsvp": {
+      "groups": [
+          {
+              "name": "Alex Meraz",
+              "familyCount": 5,
+              "email": "ameraz@email.com"
+          },
+          {
+              "name": "Mohammed Rafi",
+              "familyCount": 10,
+              "email": "mrafi@email.com"
+          }
+      ]
+  },
+  "meal": {
+      "mealList": {
+          "name": "Historical Tech Pioneers",
+          "members": true
+      }
+  }
+}
