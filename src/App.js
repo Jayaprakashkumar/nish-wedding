@@ -58,7 +58,7 @@ function App() {
 
       <div className="footer d-flex justify-content-between">
         <ul>
-          <li><a href="https://www.instagram.com/Jayaprakashkumar_Jp/" target="_blank"><img src="../instagram.png" /></a></li>
+          <li><a href="https://www.instagram.com/Jayaprakashkumar_Jp/" target="_blank"><img src="../instagram.png"  className="insta"/></a></li>
           <li><a href="https://www.linkedin.com/in/jayaprakash-kumar-24b05abb" target="_blank"><img src="../linkedln.png" /></a></li>
         </ul>
         <a href="https://jayaprakashkumar.com/" className="pr-2" target="_blank"><img src="../developer.png" /></a>
