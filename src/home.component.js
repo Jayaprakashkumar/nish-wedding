@@ -75,7 +75,7 @@ class HomeComponent extends Component {
               <div className="d-flex justify-content-center align-items-center">
                 <img src="../video.png" alt="live-video icon" />
               </div>
-              <p>Thinks are beautiful when seen in person,
+              <p>Things are beautiful when seen in person,
                 We really love your presence,
                 Just incase if you are not able to make it,</p>
 
