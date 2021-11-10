@@ -3,18 +3,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    // height: 100vh;
     font-size: 4vmin;
 }
-.menu-wrapper > div {
-    box-shadow: 1px 6px 13px -4px #ab7650;
+.menu-wrapper #breakfast, .menu-wrapper #dinner{
+    // box-shadow: 1px 6px 13px -4px #ab7650;
+    box-shadow: 1px 5px 20px -8px #ab7650;
     max-width: 45rem;
     padding: 2em;
     color: #cac2c2;
+    width: 90%;
 }
 
-.menu-wrapper > div p{
+.menu-wrapper > div p {
     padding-bottom: 0.5rem;
 }
 
+.menu-header li a.active {
+    color: #cac2c2;
+    background-color: #ab7650;
+}
 
+.menu-header li a {
+    border: 2px solid #ab7650;
+    color: #ab7650;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}

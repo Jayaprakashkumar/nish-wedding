@@ -95,7 +95,7 @@ class FlipClock extends React.Component {
   updateTime () {
 
     let year = new Date ().getFullYear ();
-    let difference = +new Date (`11/14/${year}`) - +new Date ();
+    let difference = +new Date (`11/15/${year}`) - +new Date ();
     let timeLeft = {};
 
     if (difference > 0) {

@@ -87,7 +87,7 @@ class HomeComponent extends Component {
         </div>
         <div id="location" className="col-12 d-flex justify-content-center align-items-center text-center mb-4">
           <div className="col-sm-12 col-md-6 col-lg-6 p-0">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.239645883364!2d80.24834631540546!3d13.083992890782149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265df1e93e413%3A0x7bca8f682e1ad531!2sPTR%20Kalyana%20Mandapam!5e0!3m2!1sen!2sca!4v1631668800628!5m2!1sen!2sca" width="100%" height="300" className="border-0" allowFullScreen="true" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.239645883364!2d80.24834631540546!3d13.083992890782149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265df1e93e413%3A0x7bca8f682e1ad531!2sPTR%20Kalyana%20Mandapam!5e0!3m2!1sen!2sca!4v1631668800628!5m2!1sen!2sca" width="100%" height="300" className="border-0" allowFullScreen={true} loading="lazy"></iframe>
           </div>
         </div>
 
