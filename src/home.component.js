@@ -73,7 +73,7 @@ class HomeComponent extends Component {
           <div className="live-video col-sm-12 col-md-6 col-lg-6">
             <div className="text-center">
               <div className="d-flex justify-content-center align-items-center">
-                <img src="../video.png" alt="live-video icon" />
+                <a href="https://youtu.be/deySqZjxWvA"><img src="../video.png" alt="live-video icon" /></a>
               </div>
               <p>Things are beautiful when seen in person,
                 We really love your presence,
