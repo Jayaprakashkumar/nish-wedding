@@ -72,8 +72,29 @@ class HomeComponent extends Component {
 
           <div className="live-video col-sm-12 col-md-6 col-lg-6">
             <div className="text-center">
-              <div className="d-flex justify-content-center align-items-center">
-                <a href="https://youtu.be/deySqZjxWvA"><img src="../video.png" alt="live-video icon" /></a>
+              <div className="flex justify-content-center align-items-center">
+                <p className="secondary-color f1">Reception</p>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/deySqZjxWvA"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p className="secondary-color f1" style={{ marginTop: 20 }}>
+                  Marriage
+                </p>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/59dPhOsMUWo"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
               <p>Things are beautiful when seen in person,
                 We really love your presence,
