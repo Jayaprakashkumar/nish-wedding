@@ -29,6 +29,13 @@
     margin-bottom: 5rem;
 }
 
+.live-video .f1 {
+  font-family: fantasy;
+}
+.p1 {
+  padding: 2%;
+}
+
 .live-video img{
     width: 50%;
 }
